@@ -43,7 +43,7 @@ Built with Next.js for handling the user interface, Three.js for rendering 3D el
 
 👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
-👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
+👉 **testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
 
 👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
 
@@ -97,7 +97,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
