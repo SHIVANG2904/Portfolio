@@ -80,8 +80,8 @@ export const projects = [
   // },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "CHAT - Chatting App",
+    des: "A MERN stack chatting application allows users to communicate in real-time through text messages. The app leverages MongoDB for database management, Express.js and Node.js for server-side logic and API creation, and React for the front-end interface. The application includes features such as user authentication, real-time messaging, chat rooms, and user profiles.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link:"https://www.google.com",
@@ -105,68 +105,70 @@ export const projects = [
 ];
 
 export const testimonials = [
+
+{
+    quote:
+      "University Of Petroleum and Energy Studies (UPES), Dehradun",
+    name: " CGPA: 7.9/10 ",
+    title: "Bachelor of Technology (B.Tech.) in Computer Science and Engineering|(Aug 2022 - May 2026) |",
+  },
+
+
+{
+    quote:
+      "APS International School",
+    name: " Percentage: 86%",
+    title: "Class XII Board | (Apr 2021 - May 2022) |",
+  },
+
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "APS International School",
+    name: " Percentage: 91%",
+    title: "Class X Board |  (Apr 2019 - May 2020) |",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  
+    
+  
+  
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    // name: "cloudinary",
+    // img: "/cloud.svg",
+    nameImg: "/next.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    // name: "appwrite",
+    // img: "/app.svg",
+    nameImg: "/git.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    // name: "HOSTINGER",
+    // img: "/host.svg",
+    nameImg: "/css3-original-wordmark.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    // name: "stream",
+    // img: "/s.svg",
+    nameImg: "/vs.png",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/icons8-postman-api (1).svg",
+  },
+  {
+    id: 6,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/github.svg",
   },
 ];
 
@@ -180,38 +182,46 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Software Development Intern",
+    desc: "• Engaged in structured learning tasks and hands-on projects focused on C++, Data Structures & Algorithms (DSA), and Object-Oriented Programming (OOPS), enhancing proficiency and understanding of core programming concepts.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/SHIVANG2904"
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/_Shivaaang"
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/shivang-agarwal-506a30273/"
   },
+  {
+    id: 4,
+    img: "/icons8-level-up-your-coding-skills-and-quickly-land-a-job-32.png",
+    url: "https://leetcode.com/u/shivangagarwal3165/"
+  }
 ];

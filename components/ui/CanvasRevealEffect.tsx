@@ -106,7 +106,10 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
       u_opacities: {
         value: opacities,
         type: "uniform1fv",
+
       },
+
+      
       u_total_size: {
         value: totalSize,
         type: "uniform1f",
