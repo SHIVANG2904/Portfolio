@@ -7,15 +7,9 @@ sentry
 
 issues:
 
--live links of project on {check live site}-> add correct icons and bg img
-
--full description should be shown
-
--footer->github,leetcode,linkedin,twitter links 
 
 
-site is slow
-navbar and page gets stuck upwards
+-full description should be shown on lg without merging with above text responsively
 
 education and skills selection->add links to skills
 later on add dsa  & achievement section and a download cv func.
