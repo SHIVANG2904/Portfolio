@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "CHAT - Chatting App",
-    des: "A MERN stack chatting application allows users to communicate in real-time through text messages. The app leverages MongoDB for database management, Express.js and Node.js for server-side logic and API creation, and React for the front-end interface. The application includes features such as user authentication, real-time messaging, chat rooms, and user profiles.",
+    des: "A MERN stack chatting application allows users to communicate in real-time through text messages.  The application includes features such as user authentication, real-time messaging, chat rooms, and user profiles.",
     img: "/Screenshot (618).png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link:"https://github.com/SHIVANG2904/CHAT",
