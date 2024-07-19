@@ -1,7 +1,8 @@
 aceternity ui/nextjs/sentry/daisy ui/framer motion/tailwind css/three js
 
 
-
+npm run build
+npm run start
 
 
 changes:
