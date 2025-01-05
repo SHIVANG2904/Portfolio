@@ -70,21 +70,21 @@ export const gridItems = [
 ];
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   title: "3D Solar System Planets to Explore",
-  //   des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-  //   img: "/p1.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-  //   link: "/ui.earth.com",
-  // },
+  {
+    id: 1,
+    title: "Zoomly - Video Calling App",
+    des: "A video conferencing application with features like real-time video/audio calls, screen sharing. It ensures secure user authentication, supports meeting scheduling, and offers a responsive UI for web platforms.",
+    img: "/Zoomly.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://zoomly-shivang2904s-projects.vercel.app/",
+  },
   {
     id: 2,
-    title: "CHAT - Chatting App",
-    des: "A MERN stack chatting application allows users to communicate in real-time through text messages.  The application includes features such as user authentication, real-time messaging, chat rooms, and user profiles.",
-    img: "/Screenshot (618).png",
+    title: "Chatyy - Chatting App",
+    des: "A chatting application allows users to communicate in real-time through text messages.  The application includes features such as user authentication, real-time messaging, chat room, and user profiles.",
+    img: "/Chatyy.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link:"https://github.com/SHIVANG2904/CHAT",
+    link:"https://chatapp-nextjs-postgre-sql-git-main-shivang2904s-projects.vercel.app/",
   },
   // {
   //   id: 3,
@@ -109,7 +109,7 @@ export const testimonials = [
 {
     quote:
       "University Of Petroleum and Energy Studies (UPES), Dehradun",
-    name: " CGPA: 7.9/10 ",
+    name: " CGPA: 7.4/10 (5th sem) ",
     title: "Bachelor of Technology (B.Tech.) in Computer Science and Engineering|(Aug 2022 - May 2026) |",
   },
 
@@ -124,7 +124,7 @@ export const testimonials = [
   {
     quote:
       "APS International School",
-    name: " Percentage: 91%",
+    name: " Percentage: 83%",
     title: "Class X Board |  (Apr 2019 - May 2020) |",
   },
   
@@ -175,15 +175,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "FullStack Developer Intern",
+    desc: "Completed a Full Stack Developer internship at Digiwiie, contributing to both frontend and backend development. Worked on building scalable web applications, enhancing user interfaces, and integrating APIs to deliver seamless functionality.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Software Development Intern",
-    desc: "• Engaged in structured learning tasks and hands-on projects focused on C++, Data Structures & Algorithms (DSA), and Object-Oriented Programming (OOPS), enhancing proficiency and understanding of core programming concepts.",
+    desc: "Currently working as a Software Development Intern at Quality AI .",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
