@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Zoomly - Video Calling App",
     des: "A video conferencing application with features like real-time video/audio calls, screen sharing. It ensures secure user authentication, supports meeting scheduling, and offers a responsive UI for web platforms.",
-    img: "/zoom.png",
+    img: "/Zoomly.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://zoomly-shivang2904s-projects.vercel.app/",
   },
