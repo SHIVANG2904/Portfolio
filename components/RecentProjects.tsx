@@ -49,7 +49,7 @@ const RecentProjects: React.FC = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="background" />
+                  {/* <img src="/bg.png" alt="background" /> */}
                 </div>
                 <img
                   src={img}
